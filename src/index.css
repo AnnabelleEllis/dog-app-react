@@ -1,0 +1,32 @@
+:root {
+  --white: #FFFFFFff;
+  --alice-blue: #F7FBFFff;
+  --alice-blue-2: #E7EFF6ff;
+  --sonic-silver: #737373ff;
+  --light-gray: #c7d0d8ff;
+  --roman-silver: #878d93ff;
+  --slate-gray: #6c757d;
+	--davys-grey: #495057ff;
+	--gunmetal: #343a40ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.8px;
+}
+
+
+body {
+  /* display: grid;
+  place-items: center center; */
+  padding: 5em;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

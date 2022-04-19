@@ -1,0 +1,70 @@
+.form-container {
+    background-color: var(--alice-blue);
+    width: 21rem; height: auto;
+    border-radius: 25px;
+    padding: 0.8em;
+    position: absolute;
+    top: 5rem; right: 1rem;
+    /* transform: translate(-20%, -20%); */
+}
+
+.edit-form {
+    background-color: var(--white);
+}
+
+.edit-form__error{
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.edit-form h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 600;
+    color: var(--davys-grey);
+}
+
+.edit-form fieldset {
+    border: 0;
+}
+
+.edit-form fieldset label {
+    display: block;
+    margin-bottom: 0.8em;
+    margin-left: 0.2em;
+    font-size: 1.4rem;
+}
+
+
+.edit-form fieldset input,
+.edit-form fieldset textarea {
+    border: 5px solid var(--alice-blue-2);
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    color: var(--slate-gray);
+    font-size: 1.5rem;
+    letter-spacing: 0.8px;
+    padding: 0 0.3em;
+}
+
+.edit-form fieldset input {
+    height: 50px;
+}
+
+.edit-form fieldset textarea {
+    height: 8rem;
+}
+
+.edit-form button {
+    margin: 3em 0.5em 1em 0.5em;
+    width: calc(100% - 24px); height: 50px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    border: 0;
+    background-color: var(--alice-blue-2);
+    cursor: pointer;
+}
+

@@ -1,0 +1,34 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown > img {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+}
+
+.dropdown__content {
+    position: absolute;
+    width: 11rem;
+    top: 130%; right: 1rem; 
+    padding: 0.5em;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.dropdown__content-item {
+    padding: 0.2em;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.dropdown__content-item:hover {
+    background-color: var(--alice-blue);
+    box-shadow: 4px 5px 0px 0px var(--roman-silver);
+}
+
+.dropdown__content-item:not(:last-child) {
+    margin-bottom: 0.5em;
+}
